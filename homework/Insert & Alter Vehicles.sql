@@ -1,0 +1,423 @@
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'Volvo',
+--         '740 GLE Wagon',
+--         'pebble grey',
+--         1990,
+--         22675.00,
+--         'Yes'
+--     );
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'Ford',
+--         'Mustang convertible',
+--         'sapphire blue',
+--         1966,
+--         59995.00,
+--         'Yes'
+--     );
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'Aston Martin',
+--         'DB5',
+--         'skyfall silver',
+--         1963,
+--         1421495,
+--         'No'
+--     );
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'BMW',
+--         '750iL sedan',
+--         'brocade red metallic',
+--         1995,
+--         83559.00,
+--         'No'
+--     );
+-- SELECT *
+-- FROM vehicle;
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'Pontiac',
+--         'Firebird',
+--         'dark jadestone metallic [black]',
+--         1982,
+--         12500.00,
+--         'Yes'
+--     );
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'Dodge',
+--         'Charger',
+--         'custom: General Lee',
+--         1969,
+--         17120.00,
+--         'Yes'
+--     );
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'Ford',
+--         'Econoline Van',
+--         'custom: Mystery Machine',
+--         1963,
+--         17800.00,
+--         'Yes'
+--     );
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'Toyota',
+--         'Supra',
+--         'super red',
+--         1993,
+--         37799,
+--         'No'
+--     );
+INSERT INTO Vehicle (
+        make,
+        model,
+        color,
+        year,
+        -- INTEGER
+        price,
+        -- NUMERIC (10, 2)
+        sold -- BOOLEAN
+    )
+VALUES (
+        'VW',
+        'Beetle',
+        'custom: Herbie Love Bug',
+        1963,
+        34995.00,
+        'Yes'
+    );
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'Chrysler',
+--         'Imperial',
+--         'moss gold metallic',
+--         1966,
+--         13950.00,
+--         'No'
+--     );
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'Pontiac',
+--         'Firebird',
+--         'bahia green metallic',
+--         1977,
+--         38700.00,
+--         'No'
+--     );
+SELECT *
+FROM vehicle;
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'Ford',
+--         'Gran Torino',
+--         'bright red',
+--         1977,
+--         17500.00,
+--         'Yes'
+--     );
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'Ford',
+--         'F1 4x2',
+--         'omaha orange',
+--         1951,
+--         80000.00,
+--         'No'
+--     );
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'Ferrari',
+--         '308 GTS convertible',
+--         'red',
+--         1977,
+--         65997.00,
+--         'Yes'
+--     );
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'GMC',
+--         'G-15',
+--         'dark jadestone metallic',
+--         1983,
+--         15995.00,
+--         'Yes'
+--     );
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'Acura',
+--         'Legend',
+--         'cool rose metallic [pink]',
+--         1986,
+--         42500.00,
+--         'No'
+--     );
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'Acura',
+--         'Legend',
+--         'blade silver metallic',
+--         1986,
+--         45879.00,
+--         'No'
+--     );
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'Chevrolet',
+--         'Corvette ZR1',
+--         'bluestream tintcoat metallic',
+--         2009,
+--         103795.00,
+--         'No'
+--     );
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'Porsche',
+--         'Panamera S',
+--         'aqua blue metallic',
+--         2010,
+--         105279.00,
+--         'No'
+--     );
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'Porsche',
+--         'Panamera S',
+--         'mahogani metallic [brown]',
+--         2015,
+--         108279.00,
+--         'No'
+--     );
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'Ford',
+--         'Explorer XLT',
+--         'custom: Jurassic Park',
+--         1993,
+--         18700.00,
+--         'No'
+--     );
+-- SELECT *
+-- FROM vehicle;
+-- UPDATE vehicle
+-- SET model = 'Explorer XLT'
+-- WHERE vehicle_id = 21;
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- VALUES (
+--         'DeLorean',
+--         'DMC-12',
+--         'stainless steel',
+--         1982,
+--         60300.00,
+--         'Yes'
+--     );
+-- INSERT INTO Vehicle (
+--         make,
+--         model,
+--         color,
+--         year,
+--         -- INTEGER
+--         price,
+--         -- NUMERIC (10, 2)
+--         sold -- BOOLEAN
+--     )
+-- -- VALUES (
+-- --         'Buick',
+-- --         'Grand National',
+-- --         'light emerald metallic [green]',
+-- --         1987,
+-- --         44900.00,
+-- --         'No'
+-- --     );

@@ -1,0 +1,13 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "askForPassword": true,
+      "driver": "PostgreSQL",
+      "name": "Coding Nannahs ELITE Dealership",
+      "connectString": "postgres://mwrfuqvg:kF3LGUi9i6b43uf3DWL7tc0nh3SxP2PM@heffalump.db.elephantsql.com/mwrfuqvg"
+    }
+  ]
+}
